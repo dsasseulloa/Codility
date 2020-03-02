@@ -4,10 +4,7 @@
 #D distancia que ele pulou 30 ou 2
 
 def solution(X, Y, D):
-    print((Y-X + D))
     return int((Y-X + D - 1)/D)
-
-
 
 
     # if X+(int(Y/D))<=Y:
@@ -27,3 +24,22 @@ def solution(X, Y, D):
 
 print(solution(10,85,30))
 print(solution(1,5,2))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+num=2.9
+print(int(num))
